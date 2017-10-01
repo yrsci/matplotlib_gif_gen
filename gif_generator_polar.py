@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Oct  1 19:42:42 2017
-
-@author: Yv
-"""
 
 """
 Trying out polar plots using matplotlib.pyplot.polar.
