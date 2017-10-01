@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Oct  1 18:03:55 2017
-
-@author: Yv
-"""
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -57,7 +52,7 @@ for i, x in enumerate(xvals):
     plt.savefig(filename)
     filenames.append(filename)
     
-    # Close the current plot before generating the next one (to save memory)
+    # Close the current plot before generating the next one (to save resources)
     plt.close()
 
 # Generate a .gif using the plots exported by matplotlib
